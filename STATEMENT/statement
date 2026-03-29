@@ -1,0 +1,24 @@
+Tic-Tac-Toe AI using Minimax Algorithm
+
+
+This project is a command-line based Tic-Tac-Toe game implemented in Python, where a human player competes against an intelligent AI agent. The AI uses the Minimax algorithm, a classic decision-making technique in game theory, to always choose the optimal move.
+The game is played on a 3×3 grid, where the user plays as 'X' and the AI plays as 'O'. The program evaluates all possible future game states and ensures that the AI either wins or forces a draw, making it unbeatable.
+
+Features
+Interactive CLI-based gameplay
+AI opponent powered by Minimax algorithm
+Optimal move selection ensuring no loss
+Win, loss, and draw detection
+Input validation for smooth user experience
+
+Technologies Used
+Python
+Standard libraries (math)
+
+Objective
+The goal of this project is to demonstrate the practical implementation of the Minimax algorithm in artificial intelligence and understand how decision-making works in turn-based games.
+
+How to Play
+Run the script in a Python environment
+Enter positions from 0 to 8 corresponding to the grid
+Try to beat the AI (Hint: you can’t)
