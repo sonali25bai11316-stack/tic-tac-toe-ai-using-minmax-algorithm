@@ -1,4 +1,4 @@
-Tic-Tac-Toe AI using Minimax Algorithm
+Tic-Tac-Toe AI using Minmax Algorithm
 
 Project Overview
 This project is a simple implementation of the classic Tic-Tac-Toe game integrated with an Artificial Intelligence agent. The AI uses the Minimax algorithm, a fundamental concept in AI and Game Theory, to make optimal decisions.
@@ -28,7 +28,7 @@ TIC-TAC-TOE/
 │── README.md
 
 How to Run the Project
-Install Python (if not already installed)
+Install Python 
 Download or clone this repository
 Navigate to the project folder
 Run the following command:
