@@ -18,9 +18,9 @@ The system checks for winning conditions and draw situations
 The Minimax algorithm recursively evaluates all possible game states
 The AI selects the move with the best possible outcome
 The algorithm assigns:
-+1 → AI win
--1 → Human win
-0 → Draw
++1 – AI win
+-1 – Human win
+0 – Draw
 This ensures optimal gameplay by the AI.
 
 4. Implementation Details
