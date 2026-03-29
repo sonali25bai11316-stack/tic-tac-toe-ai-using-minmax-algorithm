@@ -1,0 +1,63 @@
+Project Report: Tic-Tac-Toe AI using Minimax Algorithm
+
+
+1. Introduction
+This project focuses on developing an intelligent Tic-Tac-Toe game using concepts from Artificial Intelligence and Machine Learning fundamentals. The objective is to design an AI agent capable of making optimal decisions using the Minimax algorithm, ensuring that it never loses a game. The project demonstrates how decision-making and game strategies can be implemented through programming.
+
+2. Objectives
+To understand the basics of AI in game development
+To implement the Minimax algorithm for decision making
+To create an interactive Human vs AI game
+To explore recursion and state-space search
+
+3. Methodology
+The project is implemented using Python and follows a structured approach:
+A 3×3 Tic-Tac-Toe board is represented using a list
+The human player uses symbol X, while the AI uses O
+The system checks for winning conditions and draw situations
+The Minimax algorithm recursively evaluates all possible game states
+The AI selects the move with the best possible outcome
+The algorithm assigns:
++1 → AI win
+-1 → Human win
+0 → Draw
+This ensures optimal gameplay by the AI.
+
+4. Implementation Details
+The program consists of several key functions:
+print_board() – Displays the game board
+check_winner() – Checks if a player has won
+is_draw() – Determines if the game is a draw
+minimax() – Core AI decision-making function
+best_move() – Finds the optimal move for AI
+play_game() – Controls the game flow
+The complete implementation is provided in the source file:  
+TIC TAC TOE.py 
+
+5. Tools and Technologies Used
+Programming Language: Python
+Libraries: Built-in math module
+Platform: Command Line Interface
+
+6. Results and Output
+The game runs successfully in the terminal, allowing users to play against the AI. The AI always makes optimal moves, resulting in either a win or a draw but never a loss. The system also handles invalid inputs and ensures smooth gameplay.
+
+7. Learning Outcomes
+Gained understanding of AI decision-making techniques
+Learned implementation of recursive algorithms
+Understood game strategy using Minimax
+Improved problem-solving and logical thinking skills
+
+8. Limitations and Future Scope
+Limitations:
+No graphical user interface (GUI)
+Fixed difficulty level (AI is always unbeatable)
+Limited to console-based interaction
+Future Improvements:
+Develop a GUI using Tkinter or Pygame
+Introduce difficulty levels (Easy, Medium, Hard)
+Add multiplayer mode
+Convert into a web-based application
+
+9. Conclusion
+This project successfully demonstrates the application of Artificial Intelligence in game development. By implementing the Minimax algorithm, the AI agent is capable of making optimal decisions in all scenarios. The project serves as a strong foundation for understanding more advanced AI techniques and real-world applications.
