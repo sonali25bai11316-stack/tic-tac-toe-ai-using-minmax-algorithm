@@ -32,7 +32,6 @@ Install Python
 Download or clone this repository
 Navigate to the project folder
 Run the following command:
-Bash
 python tic_tac_toe.py
 
 How the AI Works
@@ -46,10 +45,10 @@ Human = Minimizing player (X)
 Game Rules
 The board has positions from 0 to 8
 Players take turns:
-Human → X
-AI → O
+Human - X
+AI - O
 First to align 3 symbols wins
-If all positions are filled → Draw
+If all positions are filled - Draw
 
 Example Gameplay
 
